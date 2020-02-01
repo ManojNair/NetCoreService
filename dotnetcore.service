@@ -1,5 +1,9 @@
 Location: /etc/systemd/system/dotnetcore.service
 
+sudo systemctl enable kestrel-helloapp.service
+sudo systemctl start kestrel-helloapp.service
+sudo systemctl status kestrel-helloapp.service
+
 [Unit]
 Description=Example .NET Web API App running on CentOS 7
 
